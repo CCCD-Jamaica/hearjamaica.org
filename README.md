@@ -5,7 +5,7 @@
         style="display: block; 
             margin-left: auto;
             margin-right: auto;
-            width: 30%;"
+            width: 80%;"
         src="https://res.cloudinary.com/shinkirin/image/upload/v1707677503/shinkirin/CCCD-Jamaica/project-logo.webp" 
         alt="CCCD Jamaica and PC Jamaica VSP Project logo">
     </img>
