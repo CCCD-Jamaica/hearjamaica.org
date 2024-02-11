@@ -6,8 +6,8 @@
             margin-left: auto;
             margin-right: auto;
             width: 30%;"
-        src="https://res.cloudinary.com/shinkirin/image/upload/v1707675732/shinkirin/CCCD-Jamaica/CCCDProjectlogo.webp" 
-        alt="CCCD Jamaica log">
+        src="https://res.cloudinary.com/shinkirin/image/upload/v1707677503/shinkirin/CCCD-Jamaica/project-logo.webp" 
+        alt="CCCD Jamaica and PC Jamaica VSP Project logo">
     </img>
 </p>
 
