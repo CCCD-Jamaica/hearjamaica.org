@@ -1,7 +1,8 @@
 # CCCD Jamaica / VSP Peace Corps Project
 
-
-![screenshot](https://res.cloudinary.com/shinkirin/image/upload/v1707675732/shinkirin/CCCD-Jamaica/CCCDProjectlogo.webp "CCCD Jamaica logo")
+<div style="text-align: center;">
+    ![alt text](https://res.cloudinary.com/shinkirin/image/upload/v1707675732/shinkirin/CCCD-Jamaica/CCCDProjectlogo.webp "CCCD Jamaica logo")
+</div>
 
 ## CCCD Jamaica project website
 
