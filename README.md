@@ -50,28 +50,28 @@ The TailwindUI components cannot be redistributed, used, or edited without using
 
 ### Developing Tools
 
-- [SvelteKit](https://kit.svelte.dev).
-    - [Iconify for Svelte](https://iconify.design/docs/icon-components/svelte/).
-    - [Simple Icons](https://simpleicons.org/).
-    - [shadcn-svelte](https://www.shadcn-svelte.com).
-    - [melt-ui](https://melt-ui.com).
-    - [bits-ui](https://www.bits-ui.com),
+- [SvelteKit](https://kit.svelte.dev) Framework.
+    - [Iconify for Svelte](https://iconify.design/docs/icon-components/svelte/) - native icon components.
+    - [Simple Icons](https://simpleicons.org/) free SVG icons library.
+    - [shadcn-svelte](https://www.shadcn-svelte.com) Svelte component library.
+    - [melt-ui](https://melt-ui.com) Svelte component library.
+    - [bits-ui](https://www.bits-ui.com) Svelte headless components.
 - Logo: Provided by CCCD Jamaica.
-- [Storybook](https://storybook.js.org) (Will be implemented in a later phase).
-- [Tailwind CSS](https://tailwindcss.com) framework.
-    - [Tailwind UI](https://tailwindui.com) components.
-    - [Tailwind CSS Color Generator](https://uicolors.app/create).
+- [Storybook](https://storybook.js.org) UI components (Will be implemented in a later phase).
+- [Tailwind CSS](https://tailwindcss.com) Framework.
+    - [Tailwind UI](https://tailwindui.com) Tailwind CSS components.
+    - [Tailwind CSS Color Generator](https://uicolors.app/create) - used to create color palettes for project.
 - [Undraw](https://undraw.co) - Free SVG illustrations.
-- [Unplash](https://unsplash.com) - Free images.
+- [Unplash](https://unsplash.com) - Free images for sample content.
 - [Visual Studio Code](https://code.visualstudio.com/) - Development IDE.
     - [CodyAI](https://sourcegraph.com/cody) - AI Assistant in VS Code.
 - [iTerm2](https://iterm2.com/) - macOS terminal emulator.
 - [ChatGPT](https://chat.openai.com/) - Content generation, editing, debugging, and color recommendations.
 - [Github](https://github.com) - Code repository.
-- [Vercel](https://vercel.com) - Static hosting.
+- [Vercel](https://vercel.com) - Static hosting for SvelteKit website.
 - [Linode](https://linode.com) - Future Drupal hosting site.
-- [Cloudflare](https://cloudflare.com) - CDN and nameserver.
-- [Cloudinary](https://cloudinary.com) - Image CDN.
+- [Cloudflare](https://cloudflare.com) - CDN and Nameserver to manage domains.
+- [Cloudinary](https://cloudinary.com) - Image CDN to store images for optimization.
 
 ### Accessibility Tools
 
