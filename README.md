@@ -19,7 +19,7 @@
 - <b>Vercel Team</b>: [https://vercel.com/shinkirin](https://vercel.com/shinkirin).
     - Shinkirin is VSP Kevin Miller, Jr.'s Vercel Team which will be used to donate the static hosting for the SvelteKit website hosting.
 - <b>Vercel Project URL</b>: [https://cccdjamaica.vercel.app](https://cccdjamaica.vercel.app).
-- <b>GitHub Project URL</b>: [https://github.com/CCCD-Jamaica](https://github.com).
+- <b>GitHub Project URL</b>: [https://github.com/CCCD-Jamaica](https://github.com/CCCD-Jamaica/).
 - <b>Repository</b>: [https://github.com/CCCD-Jamaica/hearjamaica.org](https://github.com/CCCD-Jamaica/hearjamaica.org).
 
 ### Description
