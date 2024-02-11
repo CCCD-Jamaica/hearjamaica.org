@@ -15,7 +15,7 @@
 
 - <b>Version</b>: 0.0.1.
 - <b>Website</b>: [https://hearjamaica.org](https://hearjamaica.org).
-    - *Note*: This URL will be used for development only!
+    - **Note**: This URL will be used for development only!
 - <b>Vercel Team</b>: [https://vercel.com/shinkirin](https://vercel.com/shinkirin).
     - Shinkirin is VSP Kevin Miller, Jr.'s Vercel Team which will be used to donate the static hosting for the SvelteKit website hosting.
 - <b>Vercel Project URL</b>: [https://cccdjamaica.vercel.app](https://cccdjamaica.vercel.app).
@@ -24,7 +24,9 @@
 
 ### Description
 
-This is a [US Peace Corps Virtual Service Pilot](https://www.peacecorps.gov/volunteer/virtual-service-pilot/) project that started on November, 2023. It is not a US Peace Corps Volunteer project. The current project is a collaboration between CCCD Jamaica and the [Peace Corps Jamaica](https://www.peacecorps.gov/jamaica/). The Participant is a Returned Peace Corps Volunteer and a private citizen donating their time each week in service of the Peace Corps mission. They are not Peace Corps Volunteers.
+This is a [US Peace Corps Virtual Service Pilot](https://www.peacecorps.gov/volunteer/virtual-service-pilot/) project that started on November, 2023. It is not a US Peace Corps Volunteer project. The current project is a collaboration between CCCD Jamaica and the [Peace Corps Jamaica](https://www.peacecorps.gov/jamaica/). 
+
+**Note**: The Participant is a Returned Peace Corps Volunteer and a private citizen donating their time each week in service of the Peace Corps mission. They are not Peace Corps Volunteers.
 
 Read more about the project status on the main GitHub Project page for CCCD Jamaica: 
     - Project Status Page: [https://github.com/CCCD-Jamaica](https://github.com).
