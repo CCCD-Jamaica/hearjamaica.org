@@ -26,7 +26,7 @@
 
 This is a [US Peace Corps Virtual Service Pilot](https://www.peacecorps.gov/volunteer/virtual-service-pilot/)(VSP) project that started on November, 2023. It is not a US Peace Corps Volunteer project. The current project is a collaboration between CCCD Jamaica and the [Peace Corps Jamaica](https://www.peacecorps.gov/jamaica/). 
 
-**Note**: VSP Participant is a Returned Peace Corps Volunteer and a private citizen donating their time each week in service of the Peace Corps mission. They are not Peace Corps Volunteers.
+**Note**: VSP Participants are currently Returned Peace Corps Volunteers and private US citizens donating their time each week in service of the Peace Corps mission. They are not Peace Corps Volunteers.
 
 Read more about the project status on the main GitHub Project page for CCCD Jamaica: 
     - Project Status Page: [https://github.com/CCCD-Jamaica](https://github.com).
