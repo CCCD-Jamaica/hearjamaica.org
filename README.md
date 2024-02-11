@@ -46,7 +46,7 @@ Unless otherwise mentioned below, all source code will abide by the BSD 3-Clause
 
 The TailwindUI components cannot be redistributed, used, or edited without using the proper licenses.
 
-### Developing Team
+### Team
 
 - Lead Developer: VSP Participant Kevin Miller, Jr. (RPCV Kazakhtan).
 - VSPP Host Country Counterpart: John Meeks, Social Enterprise Officer (CCCD Jamaica).
