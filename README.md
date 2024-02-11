@@ -15,7 +15,7 @@
 
 - <b>Version</b>: 0.0.1.
 - <b>Website</b>: [https://hearjamaica.org](https://hearjamaica.org).
-    - This is the initial development site URL. We will change it.
+    - *Note*: This URL will be used for development only!
 - <b>Vercel Team</b>: [https://vercel.com/shinkirin](https://vercel.com/shinkirin).
     - Shinkirin is VSP Kevin Miller, Jr.'s Vercel Team which will be used to donate the static hosting for the SvelteKit website hosting.
 - <b>Vercel Project URL</b>: [https://cccdjamaica.vercel.app](https://cccdjamaica.vercel.app).
