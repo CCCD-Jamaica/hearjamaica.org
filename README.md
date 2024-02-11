@@ -28,8 +28,7 @@ This is a [US Peace Corps Virtual Service Pilot](https://www.peacecorps.gov/volu
 
 **Note**: VSP Participants are currently Returned Peace Corps Volunteers and private US citizens donating their time each week in service of the Peace Corps mission. They are not Peace Corps Volunteers.
 
-Read more about the project status on the main GitHub Project page for CCCD Jamaica: 
-    - Project Status Page: [https://github.com/CCCD-Jamaica](https://github.com).
+Project status and updates can be found on the main GitHub Project page: [https://github.com/CCCD-Jamaica](https://github.com).
 
 The initial website will be developed in SvelteKit to speed up the project. We will add Drupal, or another web editing solution, during the later phases.
 
