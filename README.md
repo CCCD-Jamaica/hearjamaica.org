@@ -56,6 +56,8 @@ The TailwindUI components cannot be redistributed, used, or edited without using
 - [SvelteKit](https://kit.svelte.dev) Framework.
     - [shadcn-svelte](https://www.shadcn-svelte.com) Svelte component library.
     - [melt-ui](https://melt-ui.com) Svelte component library.
+        - [Dark Mode Toggle](https://www.shadcn-svelte.com/docs/dark-mode).
+        - [Button](https://www.shadcn-svelte.com/docs/components/button).
     - [bits-ui](https://www.bits-ui.com) Svelte headless components.
     - [Storybook](https://storybook.js.org) UI components (Will be implemented in a later phase).
 - [Tailwind CSS](https://tailwindcss.com) Framework.
@@ -64,6 +66,7 @@ The TailwindUI components cannot be redistributed, used, or edited without using
 - Icons, Images, and Graphics:
     - Official Logo: Provided by CCCD Jamaica.
     - [Iconify for Svelte](https://iconify.design/docs/icon-components/svelte/) - native icon components.
+    - [Radix icons](https://www.radix-ui.com/icons) for melt-ui.
     - [Simple Icons](https://simpleicons.org/) free SVG icons library.
     - [Pixelmator Pro](https://www.pixelmator.com/pro/) for image editing.
     - [Undraw](https://undraw.co) - Free SVG illustrations.
