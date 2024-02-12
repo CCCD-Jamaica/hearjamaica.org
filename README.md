@@ -78,7 +78,7 @@ The TailwindUI components cannot be redistributed, used, or edited without using
     - [iTerm2](https://iterm2.com/) - macOS terminal emulator.
 - [ChatGPT](https://chat.openai.com/) - Content generation, editing, debugging, and color recommendations.
 - Hosting:
-    - [Github](https://github.com) - Code repository.
+    - [GitHub](https://github.com) - Code repository.
     - [Vercel](https://vercel.com) - Static hosting for SvelteKit website.
     - [Linode](https://linode.com) - Software is installed on server.
         - [Uptime Kuma](https://github.com/louislam/uptime-kuma) - Self-hosted website monitoring.
