@@ -93,6 +93,7 @@ We use [SemVer](https://semver.org/) for versioning. SemVer consists of three co
 - Patch Version (PATCH): MUST be incremented if only backward compatible bug fixes are introduced. A bug fix is defined as an internal change that fixes incorrect behavior.
 
 For this project, we will be using the following versioning scheme:
+    
     - 1.0.0-alpha (Start of project versioning).
         - 1.0.0-alpha.1 (Patch fixes).
     - 1.0.0-beta (Start of beta versioning).
