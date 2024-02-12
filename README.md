@@ -118,5 +118,6 @@ The aim of this project is to make the site accessible to all users. The goal is
 - [Axe DevTools](https://www.deque.com/axe/devtools/).
 - [pa11y](https://pa11y.org/).
 - Limited [Svelte a11y Accessibility](https://svelte.dev/docs/accessibility-warnings) checks with [ESLint](https://eslint.org/).
+    - Will need to enable just the crucial ones.           
 
 # hearjamaica.org
