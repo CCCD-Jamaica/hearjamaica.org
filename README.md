@@ -106,6 +106,6 @@ Version 3.0.0 will be the start of the Jamaican Sign Language Resource Page comp
 The aim of this project is to make the site accessible to all users. The goal is to comply with all the [WCAG 2.2 Web Content Accessibility Guideline's](https://www.w3.org/TR/WCAG22/) [Level A and AA](https://www.w3.org/WAI/WCAG22/quickref/?currentsidebar=%23col_customize&levels=aaa) success criteria. The project will also work to meeting with the [Level AAA](https://www.w3.org/WAI/WCAG22/quickref/?currentsidebar=%23col_customize&levels=a%2Caa) success criteria. The following tools were used to test the site for accessibility:
 
 - [WebAIM](https://webaim.org/resources/) - WCAG Accessibility Tools.
-
+- [Svelte a11y Accessibility](https://svelte.dev/docs/accessibility-warnings) checks with [ESLint](https://eslint.org/).
 
 # hearjamaica.org
