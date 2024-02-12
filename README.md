@@ -65,6 +65,7 @@ The TailwindUI components cannot be redistributed, used, or edited without using
     - [Tailwind CSS Color Generator](https://uicolors.app/create) - used to create color palettes for project.
 - Images and Graphics:
     - Official Logo: Provided by CCCD Jamaica.
+    - [Pixelmator Pro](https://www.pixelmator.com/pro/) for image editing.
     - [Undraw](https://undraw.co) - Free SVG illustrations.
     - [Unplash](https://unsplash.com) - Free images for sample content.
 - [Visual Studio Code](https://code.visualstudio.com/) - Development IDE.
