@@ -100,7 +100,7 @@ For this project, we will be using the following versioning scheme:
     - 1.0.0-rc.1 (Start of release candidate versioning).
     - 1.0.0 (Start of stable release).
         - 1.0.1 (Start of patch fixes).
-    - 1.1.0-alpha (start of next minor versioning)
+    - 1.1.0-alpha (start of next minor versioning).
 
 Version 2.0.0 will be the start of integrating the web application with Drupal or another headless content management system. All content will be added, edited, and updated from Drupal.
 
