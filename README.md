@@ -63,21 +63,22 @@ The TailwindUI components cannot be redistributed, used, or edited without using
 - [Tailwind CSS](https://tailwindcss.com) Framework.
     - [Tailwind UI](https://tailwindui.com) Tailwind CSS components.
     - [Tailwind CSS Color Generator](https://uicolors.app/create) - used to create color palettes for project.
-- Images and Graphics.
+- Images and Graphics:
     - Official Logo: Provided by CCCD Jamaica.
     - [Undraw](https://undraw.co) - Free SVG illustrations.
     - [Unplash](https://unsplash.com) - Free images for sample content.
-    - [Cloudinary](https://cloudinary.com) - Image CDN to store images for optimization.
 - [Visual Studio Code](https://code.visualstudio.com/) - Development IDE.
     - [CodyAI](https://sourcegraph.com/cody) - AI Assistant in VS Code.
     - [ESLint](https://eslint.org/) code checker.
     - [Prettier](https://prettier.io/) code formatter.
     - [iTerm2](https://iterm2.com/) - macOS terminal emulator.
 - [ChatGPT](https://chat.openai.com/) - Content generation, editing, debugging, and color recommendations.
-- [Github](https://github.com) - Code repository.
-- [Vercel](https://vercel.com) - Static hosting for SvelteKit website.
-- [Linode](https://linode.com) - Future Drupal hosting site.
-- [Cloudflare](https://cloudflare.com) - CDN and Nameserver to manage domains.
+- Hosting:
+    - [Github](https://github.com) - Code repository.
+    - [Vercel](https://vercel.com) - Static hosting for SvelteKit website.
+    - [Linode](https://linode.com) - Future Drupal hosting site.
+    - [Cloudflare](https://cloudflare.com) - CDN and Nameserver to manage domains.
+    - [Cloudinary](https://cloudinary.com) - Image CDN to store images for optimization.
 - [Uptime Kuma](https://github.com/louislam/uptime-kuma) - Self-hosted website monitoring.
     - Software is installed on Shinkirin's server with Linode.
 - [Plausible](https://plausible.io/) - Self-hosted Analytics for website meeting compliance with GDPR, CCPA, and PECR.
