@@ -54,17 +54,17 @@ The TailwindUI components cannot be redistributed, used, or edited without using
 ## Developing Tools
 
 - [SvelteKit](https://kit.svelte.dev) Framework.
-    - [Iconify for Svelte](https://iconify.design/docs/icon-components/svelte/) - native icon components.
-    - [Simple Icons](https://simpleicons.org/) free SVG icons library.
     - [shadcn-svelte](https://www.shadcn-svelte.com) Svelte component library.
     - [melt-ui](https://melt-ui.com) Svelte component library.
     - [bits-ui](https://www.bits-ui.com) Svelte headless components.
-- [Storybook](https://storybook.js.org) UI components (Will be implemented in a later phase).
+    - [Storybook](https://storybook.js.org) UI components (Will be implemented in a later phase).
 - [Tailwind CSS](https://tailwindcss.com) Framework.
     - [Tailwind UI](https://tailwindui.com) Tailwind CSS components.
     - [Tailwind CSS Color Generator](https://uicolors.app/create) - used to create color palettes for project.
-- Images and Graphics:
+- Icons, Images, and Graphics:
     - Official Logo: Provided by CCCD Jamaica.
+    - [Iconify for Svelte](https://iconify.design/docs/icon-components/svelte/) - native icon components.
+    - [Simple Icons](https://simpleicons.org/) free SVG icons library.
     - [Pixelmator Pro](https://www.pixelmator.com/pro/) for image editing.
     - [Undraw](https://undraw.co) - Free SVG illustrations.
     - [Unplash](https://unsplash.com) - Free images for sample content.
@@ -83,6 +83,7 @@ The TailwindUI components cannot be redistributed, used, or edited without using
         - Future: Drupal.
     - [Cloudflare](https://cloudflare.com) - CDN and Nameserver to manage domains.
     - [Cloudinary](https://cloudinary.com) - Image CDN to store images for optimization.
+        - [Svelte Cloudinary](https://svelte.cloudinary.dev/).
 
 ### Versioning
 
