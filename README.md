@@ -78,12 +78,11 @@ The TailwindUI components cannot be redistributed, used, or edited without using
     - [Github](https://github.com) - Code repository.
     - [Vercel](https://vercel.com) - Static hosting for SvelteKit website.
     - [Linode](https://linode.com) - Future Drupal hosting site.
+        - [Uptime Kuma](https://github.com/louislam/uptime-kuma) - Self-hosted website monitoring.
+        - [Plausible](https://plausible.io/) - Self-hosted Analytics for website meeting compliance with GDPR, CCPA, and PECR.
+    - Software is installed on Shinkirin's server with Linode.
     - [Cloudflare](https://cloudflare.com) - CDN and Nameserver to manage domains.
     - [Cloudinary](https://cloudinary.com) - Image CDN to store images for optimization.
-- [Uptime Kuma](https://github.com/louislam/uptime-kuma) - Self-hosted website monitoring.
-    - Software is installed on Shinkirin's server with Linode.
-- [Plausible](https://plausible.io/) - Self-hosted Analytics for website meeting compliance with GDPR, CCPA, and PECR.
-    - Software is installed on Shinkirin's server with Linode.
 
 ### Versioning
 
