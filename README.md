@@ -13,7 +13,7 @@
 
 ## CCCD Jamaica project website
 
-- <b>Version</b>: 0.0.1.
+- <b>Release Version</b>: 1.0.0-alpha.
 - <b>Website</b>: [https://hearjamaica.org](https://hearjamaica.org).
     - **Note**: This URL will be used for development only!
 - <b>Vercel Team</b>: [https://vercel.com/shinkirin](https://vercel.com/shinkirin).
@@ -51,7 +51,7 @@ The TailwindUI components cannot be redistributed, used, or edited without using
 - Lead Developer: VSP Participant Kevin Miller, Jr. (RPCV Kazakhtan).
 - VSPP Host Country Counterpart: John Meeks, Social Enterprise Officer (CCCD Jamaica).
 
-### Developing Tools
+## Developing Tools
 
 - [SvelteKit](https://kit.svelte.dev) Framework.
     - [Iconify for Svelte](https://iconify.design/docs/icon-components/svelte/) - native icon components.
@@ -76,7 +76,28 @@ The TailwindUI components cannot be redistributed, used, or edited without using
 - [Cloudflare](https://cloudflare.com) - CDN and Nameserver to manage domains.
 - [Cloudinary](https://cloudinary.com) - Image CDN to store images for optimization.
 
-### Accessibility Tools
+### Versioning
+
+We use [SemVer](https://semver.org/) for versioning. SemVer consists of three components: major, minor, and patch versions, represented as MAJOR.MINOR.PATCH as defined below:
+
+- Major Version (MAJOR): MUST be incremented if any backward incompatible changes are introduced to the web application. It MAY also include minor and patch level changes. Patch and minor versions MUST be reset to 0 when major version is incremented. 
+- Minor Version (MINOR): MUST be incremented if new, backward compatible functionality is introduced to the web application. It MUST be incremented if any web application functionality is marked as deprecated. It MAY be incremented if substantial new functionality or improvements are introduced within the private code. It MAY include patch level changes. Patch version MUST be reset to 0 when minor version is incremented.
+- Patch Version (PATCH): MUST be incremented if only backward compatible bug fixes are introduced. A bug fix is defined as an internal change that fixes incorrect behavior.
+
+For this project, we will be using the following versioning scheme:
+    - 1.0.0-alpha (Start of project versioning).
+        - 1.0.0-alpha.1 (Patch fixes).
+    - 1.0.0-beta (Start of beta versioning).
+    - 1.0.0-rc.1 (Start of release candidate versioning).
+    - 1.0.0 (Start of stable release).
+        - 1.0.1 (Start of patch fixes).
+    - 1.1.0-alpha (start of next minor versioning)
+
+Version 2.0.0 will be the start of integrating the web application with Drupal or another headless content management system. All content will be added, edited, and updated from Drupal.
+
+Version 3.0.0 will be the start of the Jamaican Sign Language Resource Page component.
+
+## Accessibility Tools
 
 The aim of this project is to make the site accessible to all users. The goal is to comply with all the [WCAG 2.2 Web Content Accessibility Guideline's](https://www.w3.org/TR/WCAG22/) [Level A and AA](https://www.w3.org/WAI/WCAG22/quickref/?currentsidebar=%23col_customize&levels=aaa) success criteria. The project will also work to meeting with the [Level AAA](https://www.w3.org/WAI/WCAG22/quickref/?currentsidebar=%23col_customize&levels=a%2Caa) success criteria. The following tools were used to test the site for accessibility:
 
