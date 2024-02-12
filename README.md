@@ -116,5 +116,6 @@ The aim of this project is to make the site accessible to all users. The goal is
 
 - [WebAIM](https://webaim.org/resources/) - WCAG Accessibility Tools.
 - [Svelte a11y Accessibility](https://svelte.dev/docs/accessibility-warnings) checks with [ESLint](https://eslint.org/).
+- [Axe DevTools].
 
 # hearjamaica.org
