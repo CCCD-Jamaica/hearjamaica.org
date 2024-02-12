@@ -68,6 +68,8 @@ The TailwindUI components cannot be redistributed, used, or edited without using
 - [Unplash](https://unsplash.com) - Free images for sample content.
 - [Visual Studio Code](https://code.visualstudio.com/) - Development IDE.
     - [CodyAI](https://sourcegraph.com/cody) - AI Assistant in VS Code.
+    - [ESLint](https://eslint.org/) code checker.
+    - [Prettier](https://prettier.io/) code formatter.
 - [iTerm2](https://iterm2.com/) - macOS terminal emulator.
 - [ChatGPT](https://chat.openai.com/) - Content generation, editing, debugging, and color recommendations.
 - [Github](https://github.com) - Code repository.
