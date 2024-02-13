@@ -8,8 +8,8 @@
   import { Sun, Moon } from "radix-icons-svelte";
   import { toggleMode } from "mode-watcher";
 </script>
-<!-- Start of Navigationgap-x-6 -->
-<header class="relative isolate z-10 bg-white">
+<!-- Start of Navigation -->
+<header class="sticky top-0 isolate z-20 bg-white">
   <nav class="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8" aria-label="Global">
     <div class="flex lg:flex-1">
       <a href="#" class="-m-1.5 p-1.5">
