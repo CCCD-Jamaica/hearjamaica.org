@@ -4,6 +4,9 @@
   let subproductFly = false;
   import { cubicOut, quintOut } from 'svelte/easing';
   import { fly, slide } from 'svelte/transition';
+  import { Button } from "$lib/components/ui/button";
+  import { Sun, Moon } from "radix-icons-svelte";
+  import { toggleMode } from "mode-watcher";
 </script>
 <!-- Start of Navigationgap-x-6 -->
 <header class="relative isolate z-10 bg-white">
@@ -122,6 +125,11 @@
     <div class="flex flex-1 items-center justify-end gap-x-6">
       <a href="#" class="hidden lg:block lg:text-sm lg:font-semibold lg:leading-6 lg:text-gray-900">Log in</a>
       <a href="#" class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Donate</a>
+      <Button on:click={toggleMode} variant="outline" size="icon">
+        <Sun class="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+        <Moon class="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+        <span class="sr-only">Toggle theme</span>
+      </Button>
     </div>
     <!-- Mobile menu button -->
     <div class="flex lg:hidden">
@@ -153,6 +161,11 @@
           <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
         </a>
         <a href="#" class="ml-auto rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Donate</a>
+        <Button on:click={toggleMode} variant="outline" size="icon">
+          <Sun class="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+          <Moon class="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+          <span class="sr-only">Toggle theme</span>
+        </Button>
         <button
           on:click={() => open = !open} 
             class:block={open} 

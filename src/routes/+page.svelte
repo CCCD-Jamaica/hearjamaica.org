@@ -4,7 +4,7 @@
   import { Sun, Moon } from "radix-icons-svelte";
   import { toggleMode } from "mode-watcher";
 </script>
-<div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+<div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">  
   <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
   <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
     <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
@@ -58,7 +58,9 @@
       </div>
       <div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
         <div class="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-          <img src="https://images.unsplash.com/photo-1670272502246-768d249768ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&q=80" alt="" class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover">
+          <CldImage
+            src="shinkirin/CCCD-Jamaica/project-logo.webp"
+            alt="Description of my image" class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
         </div>
         <div class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
           <div class="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
@@ -101,25 +103,3 @@
   </div>
 </div>
 
-<h1 class="text-3xl font-bold text-red-500 dark:text-blue-500 underline">
-  Hello world!
-</h1>
-
-
-<CldImage
-  width="960"
-  height="600"
-  src="shinkirin/CCCD-Jamaica/project-logo.webp"
-  sizes="100vw"
-  alt="Description of my image"
-/>
-
-<Button on:click={toggleMode} variant="outline" size="icon">
-  <Sun
-    class="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0"
-  />
-  <Moon
-    class="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100"
-  />
-  <span class="sr-only">Toggle theme</span>
-</Button>
