@@ -9,12 +9,12 @@
   import { toggleMode } from "mode-watcher";
 </script>
 <!-- Start of Navigation -->
-<header class="sticky top-0 isolate z-20 bg-white">
+<header class="sticky top-0 isolate z-20 bg-white dark:bg-black">
   <nav class="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8" aria-label="Global">
     <div class="flex lg:flex-1">
       <a href="#" class="-m-1.5 p-1.5">
         <span class="sr-only">Caribbean Christian Centre for the Deaf</span>
-        <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
+        <img class="h-16 dark:p-1 rounded-md w-auto" src="https://res.cloudinary.com/shinkirin/image/upload/v1707675785/shinkirin/CCCD-Jamaica/updated-logo.webp" alt="Caribbean Christian Centre for the Deaf">
       </a>
     </div>
     <div class="hidden lg:flex lg:gap-x-12">
