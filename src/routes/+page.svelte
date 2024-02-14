@@ -8,15 +8,15 @@
   </div>
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:mx-0">
-      <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Work with us</h2>
+      <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Work with us</h1>
       <p class="mt-6 text-lg leading-8 text-gray-300">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
     </div>
     <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
       <div class="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
-        <a href="#">Open roles <span aria-hidden="true">&rarr;</span></a>
-        <a href="#">Internship program <span aria-hidden="true">&rarr;</span></a>
-        <a href="#">Our values <span aria-hidden="true">&rarr;</span></a>
-        <a href="#">Meet our leadership <span aria-hidden="true">&rarr;</span></a>
+        <a href="/">Open roles <span aria-hidden="true">&rarr;</span></a>
+        <a href="/">Internship program <span aria-hidden="true">&rarr;</span></a>
+        <a href="/">Our values <span aria-hidden="true">&rarr;</span></a>
+        <a href="/">Meet our leadership <span aria-hidden="true">&rarr;</span></a>
       </div>
       <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
         <div class="flex flex-col-reverse">
@@ -47,7 +47,7 @@
         <p class="mt-6 text-xl leading-8 text-gray-600">Quasi est quaerat. Sit molestiae et. Provident ad dolorem occaecati eos iste. Soluta rerum quidem minus ut molestiae velit error quod. Excepturi quidem expedita molestias quas.</p>
         <p class="mt-6 text-base leading-7 text-gray-600">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat. Quasi aperiam sit non sit neque reprehenderit.</p>
         <div class="mt-10 flex">
-          <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Join our team <span aria-hidden="true">&rarr;</span></a>
+          <a href="/" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Join our team <span aria-hidden="true">&rarr;</span></a>
         </div>
       </div>
       <div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
@@ -89,7 +89,7 @@
       <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">We’re here to help</p>
       <p class="mt-6 text-base leading-7 text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis.</p>
       <div class="mt-8">
-        <a href="#" class="inline-flex rounded-md bg-white/10 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Visit the help center</a>
+        <a href="/" class="inline-flex rounded-md bg-white/10 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Visit the help center</a>
       </div>
     </div>
   </div>

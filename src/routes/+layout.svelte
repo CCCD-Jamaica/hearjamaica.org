@@ -7,5 +7,7 @@
 
 <Nav />
 <ModeWatcher />
-    <slot />
-<Footer />
+    <main>
+        <slot />
+    </main>
+    <Footer />
