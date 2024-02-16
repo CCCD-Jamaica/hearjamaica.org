@@ -1,3 +1,103 @@
+<script>
+  import { JsonLd, MetaTags } from 'svelte-meta-tags';
+  let title="CCCD Jamaica homepage";
+</script>
+<!-- Meta data for SEO -->
+<MetaTags
+  title="CCCD Jamaica homepage"
+  titleTemplate="%s | Svelte Meta Tags"
+  description="This example uses more of the available config options."
+  canonical="https://www.canonical.ie/"
+  openGraph={{
+    url: 'https://www.url.ie/a',
+    title: 'Open Graph Title',
+    description: 'Open Graph Description',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/shinkirin/image/upload/v1707677503/shinkirin/CCCD-Jamaica/project-logo.webp',
+        width: 800,
+        height: 600,
+        alt: 'Og Image Alt'
+      },
+      {
+        url: 'https://res.cloudinary.com/shinkirin/image/upload/v1707677503/shinkirin/CCCD-Jamaica/project-logo.webp',
+        width: 900,
+        height: 800,
+        alt: 'Og Image Alt Second'
+      },
+      { url: 'https://res.cloudinary.com/shinkirin/image/upload/v1707677503/shinkirin/CCCD-Jamaica/project-logo.webp' },
+      { url: 'https://res.cloudinary.com/shinkirin/image/upload/v1707677503/shinkirin/CCCD-Jamaica/project-logo.webp' }
+    ],
+    siteName: 'CCCD Jamaica'
+  }}
+  twitter={{
+    handle: '@handle',
+    site: '@site',
+    cardType: 'summary_large_image',
+    title: 'Using More of Config',
+    description: 'This example uses more of the available config options.',
+    image: 'https://www.example.ie/twitter-image.jpg',
+    imageAlt: 'Twitter image alt'
+  }}
+  facebook={{
+    appId: '1234567890'
+  }}
+/>
+<!-- JSON for SEO -->
+<JsonLd
+  schema={[
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Books',
+          item: 'https://example.com/books'
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: 'Science Fiction',
+          item: 'https://example.com/books/sciencefiction'
+        },
+        {
+          '@type': 'ListItem',
+          position: 3,
+          name: 'Award Winners'
+        }
+      ]
+    },
+    {
+      '@type': 'NewsArticle',
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': 'https://google.com/article'
+      },
+      headline: 'Article headline',
+      image: [
+        'https://example.com/photos/1x1/photo.jpg',
+        'https://example.com/photos/4x3/photo.jpg',
+        'https://example.com/photos/16x9/photo.jpg'
+      ],
+      datePublished: '2015-02-05T08:00:00+08:00',
+      dateModified: '2015-02-05T09:20:00+08:00',
+      author: {
+        '@type': 'Person',
+        name: 'John Doe'
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: 'Google',
+        logo: {
+          '@type': 'ImageObject',
+          url: 'https://google.com/logo.jpg'
+        }
+      }
+    }
+  ]}
+/>
+<!-- Start of content  of homepage -->
 <div class="relative isolate overflow-hidden bg-blue-900 py-24 sm:py-32">
   <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
   <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
@@ -8,7 +108,7 @@
   </div>
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:mx-0">
-      <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Work with us</h1>
+      <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">{ title }</h1>
       <p class="mt-6 text-lg leading-8 text-gold-300">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
     </div>
     <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">

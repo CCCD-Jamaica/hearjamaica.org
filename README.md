@@ -14,8 +14,8 @@
 ## CCCD Jamaica project website
 
 - <b>Release Version</b>: Not Released Yet.
-- <b>Development Version</b>: v1.0.0-alpha.1.
-- <b>Website</b>: [https://hearjamaica.org](https://hearjamaica.org).
+- <b>Development Version</b>: v1.0.0-alpha.2.
+- <b>Website</b>: [https://hearjamaica.org](https://hearjamaica.org) for SEO.
     - **Note**: This URL will be used for development only!
 - <b>Vercel Team</b>: [https://vercel.com/shinkirin](https://vercel.com/shinkirin).
     - Shinkirin is VSP Kevin Miller, Jr.'s Vercel Team which will be used to donate the static hosting for the SvelteKit website hosting.
@@ -55,6 +55,7 @@ The TailwindUI components cannot be redistributed, used, or edited without using
 ## Developing Tools
 
 - [SvelteKit](https://kit.svelte.dev) Framework.
+    - [https://github.com/oekazuma/svelte-meta-tags](https://github.com/oekazuma/svelte-meta-tags).
     - [shadcn-svelte](https://www.shadcn-svelte.com) Svelte component library.
     - [melt-ui](https://melt-ui.com) Svelte component library.
         - [Dark Mode Toggle](https://www.shadcn-svelte.com/docs/dark-mode).
