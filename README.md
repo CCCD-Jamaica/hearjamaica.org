@@ -14,7 +14,7 @@
 ## CCCD Jamaica project website
 
 - <b>Release Version</b>: Not Released Yet.
-- <b>Development Version</b>: v1.0.0-alpha.2.
+- <b>Development Version</b>: v1.0.0-alpha.3.
 - <b>Website</b>: [https://hearjamaica.org](https://hearjamaica.org) for SEO.
     - **Note**: This URL will be used for development only!
 - <b>Vercel Team</b>: [https://vercel.com/shinkirin](https://vercel.com/shinkirin).

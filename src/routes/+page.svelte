@@ -139,15 +139,15 @@
     </div>
   </div>
 </div>
-<div class="overflow-hidden bg-white py-32">
+<div class="overflow-hidden bg-white dark:bg-black py-32">
   <div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
     <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
       <div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-        <h2 class="text-3xl font-bold tracking-tight text-blue-900 sm:text-4xl">Our people</h2>
-        <p class="mt-6 text-xl leading-8 text-blue-600">Quasi est quaerat. Sit molestiae et. Provident ad dolorem occaecati eos iste. Soluta rerum quidem minus ut molestiae velit error quod. Excepturi quidem expedita molestias quas.</p>
-        <p class="mt-6 text-base leading-7 text-blue-600">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat. Quasi aperiam sit non sit neque reprehenderit.</p>
+        <h2 class="text-3xl font-bold tracking-tight text-blue-900 dark:text-yellow-300 sm:text-4xl">Our people</h2>
+        <p class="mt-6 text-xl leading-8 text-gray-700 dark:text-white">Quasi est quaerat. Sit molestiae et. Provident ad dolorem occaecati eos iste. Soluta rerum quidem minus ut molestiae velit error quod. Excepturi quidem expedita molestias quas.</p>
+        <p class="mt-6 text-base leading-7 text-gray-800 dark:text-white">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat. Quasi aperiam sit non sit neque reprehenderit.</p>
         <div class="mt-10 flex">
-          <a href="/" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Join our team <span aria-hidden="true">&rarr;</span></a>
+          <a href="/" class="rounded-md bg-gold-600 px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-gold-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Join our team <span aria-hidden="true">&rarr;</span></a>
         </div>
       </div>
       <div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
@@ -170,14 +170,14 @@
   </div>
 </div>
 
-<div class="relative bg-blue-900">
-  <div class="relative h-80 overflow-hidden bg-indigo-600 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
+<div class="relative bg-gold-600">
+  <div class="relative h-80 overflow-hidden bg-yellow-600 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
     <img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&blend=6366F1&sat=-100&blend-mode=multiply" alt="">
     <svg viewBox="0 0 926 676" aria-hidden="true" class="absolute -bottom-24 left-24 w-[57.875rem] transform-gpu blur-[118px]">
       <path fill="url(#60c3c621-93e0-4a09-a0e6-4c228a0116d8)" fill-opacity=".4" d="m254.325 516.708-90.89 158.331L0 436.427l254.325 80.281 163.691-285.15c1.048 131.759 36.144 345.144 168.149 144.613C751.171 125.508 707.17-93.823 826.603 41.15c95.546 107.978 104.766 294.048 97.432 373.585L685.481 297.694l16.974 360.474-448.13-141.46Z" />
       <defs>
         <linearGradient id="60c3c621-93e0-4a09-a0e6-4c228a0116d8" x1="926.392" x2="-109.635" y1=".176" y2="321.024" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#776FFF" />
+          <stop stop-color="#776FFF " />
           <stop offset="1" stop-color="#FF4694" />
         </linearGradient>
       </defs>
@@ -187,9 +187,9 @@
     <div class="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32">
       <h2 class="text-base font-semibold leading-7 text-white">Award winning support</h2>
       <h3 class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">We’re here to help</h3>
-      <p class="mt-6 text-base leading-7 text-blue-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis.</p>
+      <p class="mt-6 text-base leading-7 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis.</p>
       <div class="mt-8">
-        <a href="/help" class="inline-flex rounded-md bg-white/10 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Visit the help center</a>
+        <a href="/help" class="inline-flex rounded-md bg-gold-700 px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-gold-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Visit the help center</a>
       </div>
     </div>
   </div>
