@@ -23,7 +23,7 @@
         <button
           on:click={() => productFly = !productFly} 
           type="button" 
-          class="flex items-center gap-x-1 text-md font-semibold leading-6 text-blue-900 dark:text-blue-100" 
+          class="flex items-center gap-x-1 text-md font-semibold leading-6 text-blue-900 hover:text-blue-600 dark:text-blue-100  dark:hover:underline" 
           aria-expanded="false">
           Product
           <svg class="h-5 w-5 flex-none text-blue-400 dark:text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -38,7 +38,7 @@
             class="absolute inset-x-0 top-0 -z-10 bg-white  dark:bg-black pt-14 shadow-lg ring-1 ring-blue-900/5"
           >
             <div class="mx-auto grid max-w-7xl grid-cols-4 gap-x-4 px-6 py-10 lg:px-8 xl:gap-x-8">
-              <div class="group relative rounded-lg p-6 text-md leading-6 hover:bg-gray-50">
+              <div class="group relative rounded-lg p-6 text-md leading-6 hover:bg-gray-50 dark:hover:bg-blue-700">
                 <div class="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                   <svg class="h-6 w-6 text-blue-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
@@ -49,9 +49,9 @@
                   Analytics
                   <span class="absolute inset-0"></span>
                 </a>
-                <p class="mt-1 text-blue-600">Get a better understanding where your traffic is coming from</p>
+                <p class="mt-1 text-blue-600 dark:text-white">Get a better understanding where your traffic is coming from</p>
               </div>
-              <div class="group relative rounded-lg p-6 text-md leading-6 hover:bg-blue-50">
+              <div class="group relative rounded-lg p-6 text-md leading-6 hover:bg-blue-50 dark:hover:bg-blue-700">
                 <div class="flex h-11 w-11 items-center justify-center rounded-lg bg-blue-50 group-hover:bg-white">
                   <svg class="h-6 w-6 text-blue-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59" />
@@ -61,9 +61,9 @@
                   Engagement
                   <span class="absolute inset-0"></span>
                 </a>
-                <p class="mt-1 text-blue-600">Speak directly to your customers with our engagement tool</p>
+                <p class="mt-1 text-blue-600 dark:text-white">Speak directly to your customers with our engagement tool</p>
               </div>
-              <div class="group relative rounded-lg p-6 text-md leading-6 hover:bg-blue-50">
+              <div class="group relative rounded-lg p-6 text-md leading-6 hover:bg-blue-50 dark:hover:bg-blue-700">
                 <div class="flex h-11 w-11 items-center justify-center rounded-lg bg-blue-50 group-hover:bg-white">
                   <svg class="h-6 w-6 text-blue-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M7.864 4.243A7.5 7.5 0 0119.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 004.5 10.5a7.464 7.464 0 01-1.15 3.993m1.989 3.559A11.209 11.209 0 008.25 10.5a3.75 3.75 0 117.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 01-3.6 9.75m6.633-4.596a18.666 18.666 0 01-2.485 5.33" />
@@ -73,9 +73,9 @@
                   Security
                   <span class="absolute inset-0"></span>
                 </a>
-                <p class="mt-1 text-blue-600">Your customers’ data will be safe and secure</p>
+                <p class="mt-1 text-blue-600 dark:text-white">Your customers’ data will be safe and secure</p>
               </div>
-              <div class="group relative rounded-lg p-6 text-md leading-6 hover:bg-blue-50">
+              <div class="group relative rounded-lg p-6 text-md leading-6 hover:bg-blue-50 dark:hover:bg-blue-700">
                 <div class="flex h-11 w-11 items-center justify-center rounded-lg bg-blue-50 group-hover:bg-white">
                   <svg class="h-6 w-6 text-blue-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 16.875h3.375m0 0h3.375m-3.375 0V13.5m0 3.375v3.375M6 10.5h2.25a2.25 2.25 0 002.25-2.25V6a2.25 2.25 0 00-2.25-2.25H6A2.25 2.25 0 003.75 6v2.25A2.25 2.25 0 006 10.5zm0 9.75h2.25A2.25 2.25 0 0010.5 18v-2.25a2.25 2.25 0 00-2.25-2.25H6a2.25 2.25 0 00-2.25 2.25V18A2.25 2.25 0 006 20.25zm9.75-9.75H18a2.25 2.25 0 002.25-2.25V6A2.25 2.25 0 0018 3.75h-2.25A2.25 2.25 0 0013.5 6v2.25a2.25 2.25 0 002.25 2.25z" />
@@ -85,7 +85,7 @@
                   Integrations
                   <span class="absolute inset-0"></span>
                 </a>
-                <p class="mt-1 text-blue-600">Your customers’ data will be safe and secure</p>
+                <p class="mt-1 text-blue-600 dark:text-white">Your customers’ data will be safe and secure</p>
               </div>
             </div>
             <div class="bg-blue-50 dark:bg-blue-900">
@@ -116,15 +116,15 @@
         {/if}<!-- End of Product menu dropdown.-->
       </div>
 
-      <a href="/fea" class="text-md font-semibold leading-6 text-blue-900 dark:text-blue-100">Features</a>
-      <a href="/mar" class="text-md font-semibold leading-6 text-blue-900 dark:text-blue-100">Marketplace</a>
-      <a href="/com" class="text-md font-semibold leading-6 text-blue-900 dark:text-blue-100">Company</a>
+      <a href="/fea" class="text-md font-semibold leading-6 text-blue-900 hover:text-blue-600 dark:text-blue-100 dark:hover:underline">Features</a>
+      <a href="/mar" class="text-md font-semibold leading-6 text-blue-900 hover:text-blue-600 dark:text-blue-100 dark:hover:underline">Marketplace</a>
+      <a href="/com" class="text-md font-semibold leading-6 text-blue-900 hover:text-blue-600 dark:text-blue-100 dark:hover:underline">Company</a>
 
     </div>
 
     <div class="flex flex-1 items-center justify-end gap-x-6">
-      <a href="/login" class="hidden lg:block lg:text-md lg:font-semibold lg:leading-6 lg:text-blue-900 dark:text-blue-100">Log in</a>
-      <a href="/donate" class="rounded-md bg-indigo-600 px-3 py-2 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Donate</a>
+      <a href="/login" class="hidden lg:block lg:text-md lg:font-semibold lg:leading-6 lg:text-blue-900 hover:text-blue-600 dark:text-blue-100 dark:hover:underline">Log in</a>
+      <a href="/donate" class="rounded-md bg-green-600 px-3 py-2 text-md font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Donate</a>
       <Button on:click={toggleMode} variant="outline" size="icon">
         <Sun class="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
         <Moon class="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
@@ -136,7 +136,7 @@
       <button
           on:click={() => open = !open} 
           type="button" 
-          class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-blue-700"
+          class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-green-600 hover:text-green-500 dark:text-white dark:hover:text-green-600"
           aria-expanded="false">
             <span class="sr-only">Open main menu</span>
               <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
@@ -154,13 +154,13 @@
     aria-modal="true"
   >
     <div class="fixed inset-0 z-10"></div>
-    <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-blue-900/10">
+    <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white dark:bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-blue-900/10">
       <div class="flex items-center gap-x-6">
         <a href="/" class="-m-1.5 p-1.5">
           <span class="sr-only">Caribbean Christian Centre for the Deaf</span>
           <img class="h-16 w-auto" src="https://res.cloudinary.com/shinkirin/image/upload/v1707878487/shinkirin/CCCD-Jamaica/cccdHeaderlogo.svg" alt="CCCD logo">
         </a>
-        <a href="/donate" class="ml-auto rounded-md bg-indigo-600 px-3 py-2 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Donate</a>
+        <a href="/donate" class="ml-auto rounded-md bg-green-600 px-3 py-2 text-md font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Donate</a>
         <Button on:click={toggleMode} variant="outline" size="icon">
           <Sun class="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
           <Moon class="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
@@ -171,7 +171,7 @@
             class:block={open} 
             class:hidden={!open} 
             type="button" 
-            class="-m-2.5 rounded-md p-2.5 text-blue-700">
+            class="-m-2.5 rounded-md p-2.5 text-green-600 hover:text-green-500 dark:text-white dark:hover:text-green-600">
           <span class="sr-only">Close menu</span>
           <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -179,13 +179,13 @@
         </button>
       </div>
       <div class="mt-6 flow-root">
-        <div class="-my-6 divide-y divide-blue-500/10">
+        <div class="-my-6 divide-y divide-blue-500/10 dark:divide-white">
           <div class="space-y-2 py-6">
               <!-- Mobile menu Product menu dropdown. -->
               <button 
                 on:click={() => subproductFly = !subproductFly} 
                 type="button" 
-                class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-blue-50" 
+                class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-blue-50 dark:hover:bg-green-600" 
                 aria-controls="disclosure-1" aria-expanded="false">
                 Product
 
@@ -197,21 +197,21 @@
               <!-- 'Product' sub-menuwith svelte/transitions and svelte/easing -->
               {#if subproductFly}
               <div class="mt-2 space-y-2" id="disclosure-1">
-                <a href="/a" class="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-blue-50">Analytics</a>
-                <a href="/e" class="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-blue-50">Engagement</a>
-                <a href="/s" class="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-gray-50">Security</a>
-                <a href="/i" class="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-gray-50">Integrations</a>
-                <a href="/w" class="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-gray-50">Watch demo</a>
-                <a href="/contact" class="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-gray-50">Contact sales</a>
-                <a href="/v" class="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-gray-50">View all products</a>
+                <a href="/a" class="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-blue-50 dark:hover:bg-green-600">Analytics</a>
+                <a href="/e" class="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-blue-50 dark:hover:bg-green-600">Engagement</a>
+                <a href="/s" class="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-gray-50 dark:hover:bg-green-600">Security</a>
+                <a href="/i" class="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-gray-50 dark:hover:bg-green-600">Integrations</a>
+                <a href="/w" class="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-gray-50 dark:hover:bg-green-600">Watch demo</a>
+                <a href="/contact" class="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-gray-50 dark:hover:bg-green-600">Contact sales</a>
+                <a href="/v" class="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-gray-50 dark:hover:bg-green-600">View all products</a>
               </div>
               {/if}<!-- End of 'Product' sub-menu. -->
-            <a href="/fea" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-gray-50">Features</a>
-            <a href="/mar" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-gray-50">Marketplace</a>
-            <a href="/com" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-gray-50">Company</a>
+            <a href="/fea" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-gray-50 dark:hover:bg-green-600">Features</a>
+            <a href="/mar" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-gray-50 dark:hover:bg-green-600">Marketplace</a>
+            <a href="/com" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-gray-50 dark:hover:bg-green-600">Company</a>
           </div>
           <div class="py-6">
-            <a href="/login" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-blue-900 dark:text-blue-100 hover:bg-gray-50">Log in</a>
+            <a href="/login" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-blue-900   dark:text-blue-100 hover:bg-gray-50 dark:hover:bg-green-600">Log in</a>
           </div>
         </div>
       </div>

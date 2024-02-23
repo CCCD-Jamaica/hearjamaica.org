@@ -1,6 +1,6 @@
 <script>
   import { JsonLd, MetaTags } from 'svelte-meta-tags';
-  let title="CCCD Jamaica homepage";
+  let title="CCCD Jamaica";
 </script>
 <!-- Meta data for SEO -->
 <MetaTags
