@@ -26,7 +26,7 @@
           class="flex items-center gap-x-1 text-md font-semibold leading-6 text-blue-900 hover:text-blue-600 dark:text-blue-100  dark:hover:underline" 
           aria-expanded="false">
           Product
-          <svg class="h-5 w-5 flex-none text-blue-400 dark:text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <svg class="h-5 w-5 flex-none text-blue-900 dark:text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
             <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
           </svg>
         </button>
@@ -40,7 +40,7 @@
             <div class="mx-auto grid max-w-7xl grid-cols-4 gap-x-4 px-6 py-10 lg:px-8 xl:gap-x-8">
               <div class="group relative rounded-lg p-6 text-md leading-6 hover:bg-gray-50 dark:hover:bg-blue-700">
                 <div class="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                  <svg class="h-6 w-6 text-blue-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <svg class="h-6 w-6 text-green-700 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
                     <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
                   </svg>
@@ -49,11 +49,11 @@
                   Analytics
                   <span class="absolute inset-0"></span>
                 </a>
-                <p class="mt-1 text-blue-600 dark:text-white">Get a better understanding where your traffic is coming from</p>
+                <p class="mt-1 text-green-700 dark:text-white">Get a better understanding where your traffic is coming from</p>
               </div>
               <div class="group relative rounded-lg p-6 text-md leading-6 hover:bg-blue-50 dark:hover:bg-blue-700">
-                <div class="flex h-11 w-11 items-center justify-center rounded-lg bg-blue-50 group-hover:bg-white">
-                  <svg class="h-6 w-6 text-blue-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <div class="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                  <svg class="h-6 w-6 text-green-700 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59" />
                   </svg>
                 </div>
@@ -61,11 +61,11 @@
                   Engagement
                   <span class="absolute inset-0"></span>
                 </a>
-                <p class="mt-1 text-blue-600 dark:text-white">Speak directly to your customers with our engagement tool</p>
+                <p class="mt-1 text-green-700 dark:text-white">Speak directly to your customers with our engagement tool</p>
               </div>
               <div class="group relative rounded-lg p-6 text-md leading-6 hover:bg-blue-50 dark:hover:bg-blue-700">
-                <div class="flex h-11 w-11 items-center justify-center rounded-lg bg-blue-50 group-hover:bg-white">
-                  <svg class="h-6 w-6 text-blue-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <div class="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                  <svg class="h-6 w-6 text-green-700 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M7.864 4.243A7.5 7.5 0 0119.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 004.5 10.5a7.464 7.464 0 01-1.15 3.993m1.989 3.559A11.209 11.209 0 008.25 10.5a3.75 3.75 0 117.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 01-3.6 9.75m6.633-4.596a18.666 18.666 0 01-2.485 5.33" />
                   </svg>
                 </div>
@@ -73,11 +73,11 @@
                   Security
                   <span class="absolute inset-0"></span>
                 </a>
-                <p class="mt-1 text-blue-600 dark:text-white">Your customers’ data will be safe and secure</p>
+                <p class="mt-1 text-green-700 dark:text-white">Your customers’ data will be safe and secure</p>
               </div>
               <div class="group relative rounded-lg p-6 text-md leading-6 hover:bg-blue-50 dark:hover:bg-blue-700">
-                <div class="flex h-11 w-11 items-center justify-center rounded-lg bg-blue-50 group-hover:bg-white">
-                  <svg class="h-6 w-6 text-blue-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <div class="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                  <svg class="h-6 w-6 text-green-700 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 16.875h3.375m0 0h3.375m-3.375 0V13.5m0 3.375v3.375M6 10.5h2.25a2.25 2.25 0 002.25-2.25V6a2.25 2.25 0 00-2.25-2.25H6A2.25 2.25 0 003.75 6v2.25A2.25 2.25 0 006 10.5zm0 9.75h2.25A2.25 2.25 0 0010.5 18v-2.25a2.25 2.25 0 00-2.25-2.25H6a2.25 2.25 0 00-2.25 2.25V18A2.25 2.25 0 006 20.25zm9.75-9.75H18a2.25 2.25 0 002.25-2.25V6A2.25 2.25 0 0018 3.75h-2.25A2.25 2.25 0 0013.5 6v2.25a2.25 2.25 0 002.25 2.25z" />
                   </svg>
                 </div>
@@ -85,7 +85,7 @@
                   Integrations
                   <span class="absolute inset-0"></span>
                 </a>
-                <p class="mt-1 text-blue-600 dark:text-white">Your customers’ data will be safe and secure</p>
+                <p class="mt-1 text-green-700 dark:text-white">Your customers’ data will be safe and secure</p>
               </div>
             </div>
             <div class="bg-blue-50 dark:bg-blue-900">
@@ -124,7 +124,7 @@
 
     <div class="flex flex-1 items-center justify-end gap-x-6">
       <a href="/login" class="hidden lg:block lg:text-md lg:font-semibold lg:leading-6 lg:text-blue-900 hover:text-blue-600 dark:text-blue-100 dark:hover:underline">Log in</a>
-      <a href="/donate" class="rounded-md bg-green-600 px-3 py-2 text-md font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Donate</a>
+      <a href="/donate" class="rounded-md bg-green-800 px-3 py-2 text-md font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Donate</a>
       <Button on:click={toggleMode} variant="outline" size="icon">
         <Sun class="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
         <Moon class="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
@@ -136,7 +136,7 @@
       <button
           on:click={() => open = !open} 
           type="button" 
-          class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-green-600 hover:text-green-500 dark:text-white dark:hover:text-green-600"
+          class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-green-700 hover:text-green-600 dark:text-white dark:hover:text-green-600"
           aria-expanded="false">
             <span class="sr-only">Open main menu</span>
               <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">

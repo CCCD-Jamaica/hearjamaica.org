@@ -109,7 +109,7 @@
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:mx-0">
       <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">{ title }</h1>
-      <p class="mt-6 text-lg leading-8 text-gold-300">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+      <p class="mt-6 text-lg leading-8 text-white">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
     </div>
     <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
       <div class="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
@@ -120,19 +120,19 @@
       </div>
       <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
         <div class="flex flex-col-reverse">
-          <dt class="text-base leading-7 text-gold-300">Offices worldwide</dt>
+          <dt class="text-base leading-7 text-white">Offices worldwide</dt>
           <dd class="text-2xl font-bold leading-9 tracking-tight text-white">12</dd>
         </div>
         <div class="flex flex-col-reverse">
-          <dt class="text-base leading-7 text-gold-300">Full-time colleagues</dt>
+          <dt class="text-base leading-7 text-white">Full-time colleagues</dt>
           <dd class="text-2xl font-bold leading-9 tracking-tight text-white">300+</dd>
         </div>
         <div class="flex flex-col-reverse">
-          <dt class="text-base leading-7 text-gold-300">Hours per week</dt>
+          <dt class="text-base leading-7 text-white">Hours per week</dt>
           <dd class="text-2xl font-bold leading-9 tracking-tight text-white">40</dd>
         </div>
         <div class="flex flex-col-reverse">
-          <dt class="text-base leading-7 text-gold-300">Paid time off</dt>
+          <dt class="text-base leading-7 text-white">Paid time off</dt>
           <dd class="text-2xl font-bold leading-9 tracking-tight text-white">Unlimited</dd>
         </div>
       </dl>
@@ -147,7 +147,7 @@
         <p class="mt-6 text-xl leading-8 text-gray-700 dark:text-white">Quasi est quaerat. Sit molestiae et. Provident ad dolorem occaecati eos iste. Soluta rerum quidem minus ut molestiae velit error quod. Excepturi quidem expedita molestias quas.</p>
         <p class="mt-6 text-base leading-7 text-gray-800 dark:text-white">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat. Quasi aperiam sit non sit neque reprehenderit.</p>
         <div class="mt-10 flex">
-          <a href="/" class="rounded-md bg-gold-600 px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-gold-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Join our team <span aria-hidden="true">&rarr;</span></a>
+          <a href="/" class="rounded-md bg-gold-900 px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-gold-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Join our team <span aria-hidden="true">&rarr;</span></a>
         </div>
       </div>
       <div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
@@ -170,7 +170,7 @@
   </div>
 </div>
 
-<div class="relative bg-gold-600">
+<div class="relative bg-gold-800">
   <div class="relative h-80 overflow-hidden bg-yellow-600 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
     <img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&blend=6366F1&sat=-100&blend-mode=multiply" alt="">
     <svg viewBox="0 0 926 676" aria-hidden="true" class="absolute -bottom-24 left-24 w-[57.875rem] transform-gpu blur-[118px]">
@@ -189,7 +189,7 @@
       <h3 class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">We’re here to help</h3>
       <p class="mt-6 text-base leading-7 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis.</p>
       <div class="mt-8">
-        <a href="/help" class="inline-flex rounded-md bg-gold-700 px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-gold-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Visit the help center</a>
+        <a href="/help" class="inline-flex rounded-md bg-green-800 px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Visit the help center</a>
       </div>
     </div>
   </div>
